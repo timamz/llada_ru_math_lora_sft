@@ -1,0 +1,75 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "dataset_math_messages_jsonl",
+  "dataset_size": 10879895,
+  "description": "",
+  "download_checksums": {
+    "/app/data/TEMP/genai/dataset_math_messages_jsonl/train.jsonl": {
+      "num_bytes": 10299099,
+      "checksum": null
+    },
+    "/app/data/TEMP/genai/dataset_math_messages_jsonl/test.jsonl": {
+      "num_bytes": 1169716,
+      "checksum": null
+    }
+  },
+  "download_size": 11468815,
+  "features": {
+    "messages": {
+      "feature": {
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "List"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "labels": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "prompt_len": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 22348710,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 9769053,
+      "num_examples": 10507,
+      "dataset_name": "dataset_math_messages_jsonl"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1110842,
+      "num_examples": 1168,
+      "dataset_name": "dataset_math_messages_jsonl"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
