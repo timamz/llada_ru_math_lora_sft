@@ -1,0 +1,7 @@
+run,run_description,model,kind,config,steps,block_size,n,accuracy,boxed_rate,seconds_total,seconds_per_task
+llada-8b-base__steps150_bs512,Base weights (no LoRA) | steps150_bs512,llada-8b-base,base,steps150_bs512,150,512,500,0.162,1.0,3983.7472915649414,7.9674945831298825
+llada-8b-base__steps100_bs512,Base weights (no LoRA) | steps100_bs512,llada-8b-base,base,steps100_bs512,100,512,500,0.148,0.998,2657.7804617881775,5.315560923576355
+llada-8b-base__steps50_bs512,Base weights (no LoRA) | steps50_bs512,llada-8b-base,base,steps50_bs512,50,512,500,0.098,0.998,1330.6432280540466,2.661286456108093
+llada-8b-lora__steps150_bs512,Base + LoRA adapter | steps150_bs512,llada-8b-lora,lora,steps150_bs512,150,512,500,0.162,1.0,4913.838811159134,9.827677622318268
+llada-8b-lora__steps100_bs512,Base + LoRA adapter | steps100_bs512,llada-8b-lora,lora,steps100_bs512,100,512,500,0.126,1.0,3269.480087518692,6.538960175037384
+llada-8b-lora__steps50_bs512,Base + LoRA adapter | steps50_bs512,llada-8b-lora,lora,steps50_bs512,50,512,500,0.09,0.996,1635.314423084259,3.2706288461685182
