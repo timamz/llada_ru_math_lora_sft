@@ -105,3 +105,5 @@ LoRA adapters as well as whole training checkpoint can be downloaded [here](http
 # Original model paper 
 
 [Large Language Diffusion Models by S Nie et al](https://arxiv.org/abs/2502.09992)
+
+happy new year
